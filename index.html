@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars search</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alkatra&family=Bangers&family=Croissant+One&family=Marcellus&family=Martian+Mono:wght@500&family=Orbitron&family=Poppins:ital,wght@1,100&family=Press+Start+2P&family=Public+Sans:ital,wght@0,100;1,100;1,400&family=Space+Grotesk&family=Tilt+Neon&family=Ubuntu:ital@1&family=Zeyada&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar sticky-top ">
+        <div class="container-fluid">
+            <h1 ><a href=""> ${CARS SEARCH ENGINE} </a></h1>
+        </div>
+    </nav>
+    <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
+        <select id="brands" onchange="setValue(this)">
+            <option value="">Select company</option>
+        </select>
+        <select id="car-model">
+            <option value="">Select car</option>
+        </select>
+        <button onclick="search()"> Search </button>
+    </div>
+
+
+    <div id="car-div">
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
