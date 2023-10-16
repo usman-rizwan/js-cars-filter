@@ -293,7 +293,7 @@ function search() {
              <h3 class="card-title">RS:${cars[brands.value][carModel.value].price}</h3>
              <h6 class="card-text">Model: ${cars[brands.value][carModel.value].year}</h6>
              <h6 class="card-text">Tramsmission: ${cars[brands.value][carModel.value].transmission}</h6>
-             <h6 class="card-text">Gates: ${cars[brands.value][carModel.value].gates}</h6>
+             <h6 class="card-text">Gates: ${cars[brands.value][carModel.value].gate}</h6>
          <div class="d-flex">
          ${colorDiv2}
          </div>
