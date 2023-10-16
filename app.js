@@ -253,7 +253,7 @@ for (var company in cars) {
         carDiv.innerHTML += ` <div class="card">
        <img src="${carData.src}" class="card-img-top" alt="My Car"/>
           <div class="card-body">
-            <h2 class="card-title">${carData.name}</h2>
+            <h2 class="card-title my-font">${carData.name}</h2>
             <h3 class="card-title">RS:${carData.price}</h3>
             <h6 class="card-text">Model: ${carData.year}</h6>
             <h6 class="card-text">Tramsmission: ${carData.transmission}</h6>
@@ -289,7 +289,7 @@ function search() {
         carDiv.innerHTML = `<div class="card"">
         <img src="${cars[brands.value][carModel.value].src}" class="card-img-top" alt="my car"/>
            <div class="card-body" >
-             <h2 class="card-title">${cars[brands.value][carModel.value].name}</h2>
+             <h2 class="card-title my-font">${cars[brands.value][carModel.value].name}</h2>
              <h3 class="card-title">RS:${cars[brands.value][carModel.value].price}</h3>
              <h6 class="card-text">Model: ${cars[brands.value][carModel.value].year}</h6>
              <h6 class="card-text">Tramsmission: ${cars[brands.value][carModel.value].transmission}</h6>
