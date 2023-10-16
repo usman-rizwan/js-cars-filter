@@ -66,3 +66,6 @@ nav > div > h1 > a {
   height: 250px;
   object-fit: cover;
 }
+.my-font{
+font-family: "Bangers", monospace;
+}
